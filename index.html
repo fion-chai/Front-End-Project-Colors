@@ -24,11 +24,8 @@
                 <li class="navbar_item">
                     <a href="#about" class="navbar_links" id="about-page">About</a>
                 </li>
-                <li class="navbar_item">
-                    <a href="#contact" class="navbar_links" id="contact-page">Contact Us</a>
-                </li>
                 <li class="navbar_btn">
-                    <a href="#sign-up" class="button" id="sign-up">Sign up</a>
+                    <a href="#contact" class="button" id="contact-page">Contact us</a>
                 </li>
             </ul>
         </div>
@@ -53,7 +50,7 @@
                 <h1>What do we do?</h1>
                 <h2>We help business scale</h2>
                 <p>Schedule a call.</p>
-                <button class="main_btn"><a href="#">Schedule now</a></button>
+                <button class="main_btn"><a href="#contact">Schedule now</a></button>
             </div>
         </div>
     </div>
@@ -75,12 +72,28 @@
                 <input type = 'submit' id = 'submit' value = 'Submit'>
             </form>
         </div>
+        <br>
         <div class="map">
-            <iframe  width="600"  height="450"  style="border:0"  loading="lazy"  allowfullscreen  referrerpolicy="no-referrer-when-downgrade"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA6wRnw6Ec2COLX1S20bcY9Thgljjvl4ew&q=NTU"></iframe>
-            <p>You can also choose to visit us at NTU.</p>
+            <iframe  width="600"  height="450"  style="border:0"  loading="lazy"  allowfullscreen  referrerpolicy="no-referrer-when-downgrade"  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA6wRnw6Ec2COLX1S20bcY9Thgljjvl4ew&q=NTU-North-Spine-Plaza"></iframe>
+            <div id="map-content">
+                <p>You can also choose to visit us at NTU.</p>
+                <br>
+                <p id="address">
+                    Nanyang Technological University, <br>
+                    North Spine Plaza, <br>
+                    76 Nanyang Dr, Singapore <br> 
+                    637331.
+                </p>
+            </div>    
         </div>
     </div>
 
+    
+
     <script src = "app.js" ></script>
 </body>
+
+<footer>
+    <p>This page is created for practice purpose.</p>
+</footer>
 </html>
