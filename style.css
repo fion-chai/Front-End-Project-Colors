@@ -467,6 +467,10 @@ hero_container {
     float: left;
 }
 
+.sub_content h1 {
+    color: #d652c2;
+}
+
 .sub_container .contact_form{
     color: #ffff;
     font-size: 1.25rem;
@@ -562,6 +566,39 @@ hero_container {
     .map #map-content {
         margin: 1rem auto 0 auto;
     }
+}
+
+.subscribe-container{
+    border-width: 2px;
+    background-color: #131313;
+    text-align: center;
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+#sub-email {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width:40%;
+    height: 2rem;
+}
+
+#join {
+    width: 8rem;
+    min-width: 6rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    border-radius: 4px;
+    color: #ffff;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+    margin: 0 auto;
+    margin-bottom: 5rem;
 }
 
 footer {
